@@ -1,0 +1,74 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color:#5CDB95;
+  display: flex;
+  width: 100vw;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  padding: 20px;
+  background-color:whitesmoke;
+  width: 360px;
+  border-radius: 20px;
+}
+.inputcontainer{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border:2px solid #5CDB95;
+  border-radius:10px;
+  overflow: hidden;
+  background-color: transparent;
+}
+.inputbox{
+  flex:1;
+  border:none;
+  height:20px;
+  font-size: 16px;
+  padding: 20px;
+  outline: none;
+  background-color:transparent;
+}
+.iconcontain{
+  padding:20px;
+  height:30px;
+  cursor: pointer;
+}
+.iconcontain img{
+  object-fit: contain;
+  margin-bottom:10px;
+  height:30px;
+}
+.temperature{
+  font-weight: bold;
+  text-align: center;
+  font-size: larger;
+  padding: 5px;
+}
+.city{
+  text-align: center;
+  font-size:35px;
+  padding: 5px;
+}
+.county{
+  text-align: center;
+  font-size: 15px;
+  padding:5px;
+}
+.cordinates div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap:5px;
+ 
+}
+.cordinates div span{
+  font-size:medium;
+}
